@@ -1,5 +1,5 @@
 Particle[] particles = new Particle[1000]; 
-Particle singleParticle
+Particle singleParticle;
 
 void setup() { 
   size(400, 400); 
@@ -76,6 +76,6 @@ class OddballParticle extends Particle {
   
   void show() {
     fill(255, 200, 0);
-    rect((float)myX, (float)myY, 10, 10);
+    rect((float)myX, (float)myY, 15, 15);
   }
 }
